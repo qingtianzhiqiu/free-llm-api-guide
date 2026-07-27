@@ -19,7 +19,7 @@
 
 阶跃星辰（StepFun）是国产 AI 大模型公司，目前推出了 Step Plan 限时免费活动：新用户注册即可领取 15 天免费额度，API 接口与付费版完全相同。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step4-plan-pricing.png)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_081956.png)
 *图 1：阶跃星辰 Step Plan 免费模型 API 套餐方案，注册即领 15 天免费额度*
 
 具体来说，你拿到的接口地址、调用方式、模型响应速度，跟付费版走的是同一条通道。区别只在于，你暂时不用付费。
@@ -42,36 +42,36 @@
 
 > https://platform.stepfun.com/?invite_code=LTSLRHNS
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step2-homepage.png)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_080315.png)
 *图 2：阶跃星辰开放平台首页，点击【免费领取】注册免费模型 API*
 
 跳转到套餐介绍页后，点击左侧【点击领取】按钮，用手机号注册一个账号。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step1-register.png)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_080254.png)
 *图 3：免费模型套餐介绍页，点击左侧【点击领取】开始注册*
 
 ### 第 2 步：领取免费额度
 
 注册完成后自动跳转 Step Plan 页面，往下滑找到免费套餐，再次点击【点击领取】。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step3-plan-page.png)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_081927.png)
 *图 4：Step Plan 页面，再次点击【点击领取】领取免费模型 API 额度*
 
 新用户会弹出一个"Step Plan 限时免费体验"的活动弹窗，说明你的账号符合领取条件。勾选"我已阅读并同意"，点击【立即领取】。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step5-popup.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_082348.webp)
 *图 5：免费体验活动弹窗，勾选同意后点击【立即领取】*
 
 看到控制台显示【已生效】和截止日期，同时收到短信通知，就说明 15 天免费套餐已经生效了。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step6-activated.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_082548.webp)
 *图 6：免费模型 API 额度领取成功，控制台显示【已生效】及截止日期*
 
 ### 第 3 步：获取 API Key
 
 在 Step Plan 页面继续往下滑，找到接口密钥区域。系统已经自动创建了一个"默认密钥"，直接复制即可。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step7-apikey.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_155307.webp)
 *图 7：免费模型 API 默认密钥（API Key），系统已自动创建，直接复制即可*
 
 三步走完，手里就有一个可以直接调用的免费大模型 API 了。
@@ -84,7 +84,7 @@
 
 打开 WorkBuddy，在对话框中点击模型选择区域，找到【配置自定义模型】入口。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step8-workbuddy-entry.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_161540.webp)
 *图 8：WorkBuddy 配置自定义模型入口，接入免费大模型 API 的第一步*
 
 ### 第 2 步：填写 5 项配置
@@ -101,19 +101,19 @@
 
 保存前跟下面的配置截图核对一遍，确认无误后点击保存。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step9-config.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_165622.webp)
 *图 9：免费模型 API 接入 WorkBuddy 最终配置（接口地址 + API Key + 模型名称 + 高级配置）*
 
 ### 第 3 步：验证是否接入成功
 
 保存成功后返回 WorkBuddy 对话窗口，把模型切换到刚配置的免费模型。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step10-switch-model.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_170805.webp)
 *图 10：在 WorkBuddy 中切换为刚配置的免费模型*
 
 随便发一句话，比如"你好，介绍一下你自己"。能正常回复，就说明免费大模型 API 接入成功了。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step11-verify.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_171315.webp)
 *图 11：免费大模型 API 接入成功验证，正常回复即表示配置完成*
 
 ## 四、配置不通？先查这 3 个地方
@@ -134,14 +134,14 @@
 
 免费活动的截止日期是 **7 月 31 日**。但 API 使用期限是从你领取当天起算 15 天，不是 7 月 31 日统一截止。也就是说，如果你 7 月 31 日领取，最晚可以用到 8 月 15 日左右。15 天内额度用完，还会加赠一次 15 天。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step13-deadline.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_174914.webp)
 *图 12：免费模型 API 活动截止规则公告（7 月 31 日前注册有效）*
 
 ### 查看 API 调用详情
 
 如果想确认自己确实在调用 step-3.7-flash 模型，可以在控制台查看使用详情。发一句话测试后，控制台就会显示调用次数和模型信息。
 
-![](https://github.com/qingtianzhiqiu/free-llm-api-guide/releases/download/assets-v1/step12-console.webp)
+![](images/最新免费大模型API哪里找？4步教你接入AI助手WorkBuddy（附手把手教程SOP）_171022.webp)
 *图 13：控制台查看免费模型 API 调用详情，确认模型正常工作*
 
 ## 六、先跑起来，再决定要不要付费
